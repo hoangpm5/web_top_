@@ -15,7 +15,8 @@ menu = st.selectbox("📂 Chọn chức năng bạn muốn dùng:", [
     "💧 Lượng nước cần uống",
     "🚶‍♀️ Bước chân mỗi ngày",
     "🧠 DISC Test",
-    "📈 Stock"
+    "📈 Stock",
+    "👌 Tư duy & Nội lực",
 ])
 
 if menu == "🎤 Favorite music artist":
@@ -219,3 +220,22 @@ elif menu == "📈 Stock":
 
     st.markdown("### 📦 Baltic Dry Index (vận tải hàng rời)")
     st.markdown("[TradingEconomics - Baltic Exchange Dry Index](https://tradingeconomics.com/commodity/baltic)")
+elif menu == "👌 Tư duy & Nội lực":
+    st.header("Tư duy & Nội lực")
+
+    items = [
+        ("Khi nội lực chưa đủ", "nhìn đâu cũng thấy khó khăn."),
+        ("Nóng nảy", "là do sức lực không đủ."),
+        ("Sợ hãi", "là do tưởng tượng quá nhiều."),
+        ("Lo lắng", "là do tư duy mập mờ."),
+        ("Áp lực", "là do tầm nhìn hạn hẹp."),
+        ("Hoảng loạn", "là do chuẩn bị không đủ."),
+        ("Nhẹ dạ", "là do thiếu sự rèn luyện."),
+    ]
+
+    st.markdown("### Nhận định")
+    for cause, effect in items:
+        st.markdown(f"- **{cause}** → {effect}")
+
+    st.divider()
+    st.caption("Góc nhìn tham khảo nhằm tự nhận thức và rèn luyện bản thân.")    
