@@ -29,7 +29,7 @@ if menu == "🎤 Favorite music artist":
             ("Mang tiền về cho mẹ", "https://www.youtube.com/watch?v=UVbv-PJXm14"),
             ("Trời hôm nay nhiều mây cực!", "https://www.youtube.com/watch?v=MBaF0l-PcRY"),
             ("Hai triệu năm", "https://www.youtube.com/watch?v=LSMDNL4n0kM"),
-            ("Những bài hát về mẹ", "https://www.youtube.com/watch?v=M7gWMzzdILU")
+            ("Trung Quân Idol", "https://www.youtube.com/watch?v=7MMiwZv0HzE&list=RD7MMiwZv0HzE&index=1")
         ],
         "Hà Anh Tuấn": [
             ("Tuyết rơi mùa hè", "https://www.youtube.com/watch?v=pTh3KCD7Euc"),
@@ -240,5 +240,6 @@ elif menu == "👌 Tư duy & Nội lực":
 
     st.divider()
     st.caption("Góc nhìn tham khảo nhằm tự nhận thức và rèn luyện bản thân.")    
+
 
 
